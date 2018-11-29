@@ -1,0 +1,23 @@
+{
+  "name": "clarity-icons-svg",
+  "version": "0.1.0",
+  "description": "Raw svg icons from project clarity made by VMware. ",
+  "author": "Renaud Tertrais <renaud.tertrais@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renaudtertrais/clarity-icons-svg.git"
+  },
+  "keywords": [
+    "icons",
+    "clarity",
+    "svg"
+  ],
+  "bugs": {
+    "url": "https://github.com/renaudtertrais/clarity-icons-svg/issues"
+  },
+  "homepage": "https://github.com/renaudtertrais/clarity-icons-svg#readme"
+}
