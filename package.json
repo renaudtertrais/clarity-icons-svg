@@ -5,7 +5,10 @@
   "author": "Renaud Tertrais <renaud.tertrais@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean && copyfiles ./package.json ./README.md ./dist",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/renaudtertrais/clarity-icons-svg/issues"
   },
-  "homepage": "https://github.com/renaudtertrais/clarity-icons-svg#readme"
+  "homepage": "https://github.com/renaudtertrais/clarity-icons-svg#readme",
+  "devDependencies": {
+    "copyfiles": "^2.1.0",
+    "rimraf": "^2.6.2"
+  }
 }

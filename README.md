@@ -9,7 +9,7 @@ Raw svg icons from [project clarity](https://vmware.github.io/clarity/) made by 
 ### Install
 
 ```sh
-$ npm install @beqom/alto-ui --save
+$ npm install clarity-icons-svg --save
 ```
 
 ### Usage with CRA
@@ -18,7 +18,7 @@ $ npm install @beqom/alto-ui --save
 import { ReactComponent as CogIcon } from 'clarity-icons-svg/core/cog-line.svg';
 
 const MyComponent = () => {
-  <div>
+  <div style={{ color: 'red', fontSize: 24 }}>
     <CogIcon />
   </div>;
 };
